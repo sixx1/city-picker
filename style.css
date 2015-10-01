@@ -1,0 +1,78 @@
+#pageWrap {
+	width: 600px;
+	margin: auto;
+	height: 500px;
+	overflow: hidden;
+}
+
+ul {
+	padding: 0;
+	max-height: 250px;
+	width: 150px;
+	overflow: hidden;
+	border: solid thin black;
+}
+
+li {
+	list-style: none;
+}
+
+#left {
+	float: left;
+	width: 45%;
+	margin-right: 25px;
+}
+
+#left p {
+	display: inline;
+}
+
+#time {
+	float: right;
+	background-color: none;
+}
+
+input {
+	margin-top: 25px;
+	display: block;
+	width: 150px;
+}
+
+#add {
+	float: right;
+}
+
+#right {
+	float: left;
+	width: 45%;
+}
+
+#right p {
+	margin: 0;
+}
+
+
+.addedUI {
+	margin-top: 25px;
+	border: solid thin black;
+	min-height: 250px;
+}
+
+.addedUI div {
+	margin-top: 10px;
+	background-color: lightgray;
+	cursor: pointer;
+}
+
+.addedUI p {
+	display: inline;
+}
+
+span {
+	float: right;
+	margin-left: 25px;
+}
+
+.ui-helper-hidden-accessible { 
+	display:none; 
+}
